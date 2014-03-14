@@ -2,20 +2,21 @@
 
 These are the steps to creating your own CocoaPods library.
 
-   * Create a Xcode project e.g. in ~/Workspace/AwesomePod/
+   * Create a Xcode project eg. in ~/Workspace/AwesomePod/
    * Create a Library directory containing the essential files e.g. in ~/Workspace/AwesomePod/Library
    * Add Library to the project, and add .h/.m files there
-   * Implement your awesome library
+   * Implement your awesome pod
    * Copy these [5 files](https://github.com/samwize/CocoaPodsTemplate) to the project root, and edit
    * Test the pod in your actual project. eg. in your Podfile
 
-    platform :ios, '7.0'
-    pod 'AwesomePod', :path => '~/Workspace/AwesomePod/AwesomePod.podspec'
+        platform :ios, '7.0'
+        pod 'AwesomePod', :path => '~/Workspace/AwesomePod/AwesomePod.podspec'
 
    * Create a Github repos, tag "1.0.0", then push
-   * Copy the podspec file to a [forked Specs][https://github.com/CocoaPods/Specs] (in a /libname/version schema), push, then request pull
+   * Copy the podspec file to a (forked Specs)[https://github.com/CocoaPods/Specs] (in a /libname/version schema), push, then request pull
 
 NOTE: You should delete this section in README.md after following through. Delete anything above this line
+
 ---
 
 # AwesomePod
